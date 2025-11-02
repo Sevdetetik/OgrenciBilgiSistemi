@@ -1,20 +1,59 @@
 
+## ✨ Genel Bakış
 
+Bu proje, veliler ve öğretmenler arasındaki iletişimi ve öğrenci takibini kolaylaştırmak amacıyla React Native ile geliştirilmiş mobil bir uygulamadır. Güvenilir ve gerçek zamanlı veri yönetimi için tüm altyapı hizmetleri **Firebase** tarafından sağlanmaktadır.
 
+## 📸 Uygulama Ekran Görüntüleri
 
+Projenin temel kullanıcı arayüzlerini ve ana özelliklerini aşağıda görebilirsiniz:
 
+### 1. Giriş ve Kimlik Doğrulama
 
-
+Uygulama, hem veliler hem de öğretmenler için ayrı ayrı giriş seçenekleri sunar. Hızlı ve güvenli erişim için Google ile Giriş yapma özelliği mevcuttur.
 
 ![WhatsApp Image 2025-11-02 at 13 05 11](https://github.com/user-attachments/assets/8c6cc00f-2411-4d17-932b-87c6ded27bad)
 
 
+### 2. Veli Paneli (Dashboard)
+
+Kullanıcı giriş yaptıktan sonra ana panele yönlendirilir. Bu panel, velilerin/öğretmenlerin en çok ihtiyaç duyduğu modüllere hızlı erişim sağlar: Ödevler, Cevap Anahtarları, Duyurular, Ders Takibi ve Ayarlar.
+
+![WhatsApp Image 2025-11-02 at 13 04 29](https://github.com/user-attachments/assets/9a726a06-5b42-4370-a201-f5934f690c8f)
 
 
-![WhatsApp Image 2025-11-02 at 13 04 29 (1)](https://github.com/user-attachments/assets/17d20ca1-1ea1-4a83-9680-c55ce16bd616)
+### 3. Duyurular Modülü
+
+Yönetici veya öğretmenler tarafından yapılan güncel duyurular, kronolojik sırayla bu ekranda listelenir. Kullanıcılar, önemli bildirimleri anında görüntüleyebilir.
+
+![WhatsApp Image 2025-11-02 at 13 04 29 (1)](https://github.com/user-attachments/assets/52f86cd1-f1e9-43ed-bd4a-87c6ec278d70)
+
+---
+
+## ⚙️ Teknolojik Altyapı
+
+* **Mobil Geliştirme Çatısı:** **React Native** (Tek kod tabanı ile iOS ve Android desteği)
+* **Arka Uç (Backend):** **Google Firebase**
+    * **Firebase Authentication:** Güvenli kullanıcı yönetimi.
+    * **Cloud Firestore/Realtime DB:** Gerçek zamanlı veri depolama ve senkronizasyonu.
+* **Programlama Dili:** JavaScript
+
+## 🚀 Yerel Kurulum
+
+Projeyi yerel cihazınızda çalıştırmak için:
+
+1.  Depoyu klonlayın: `git clone [REPO URL'NİZİ BURAYA YAZIN]`
+2.  Bağımlılıkları yükleyin: `npm install`
+3.  Bir Firebase projesi oluşturun ve yapılandırma dosyalarını (`google-services.json`, vb.) projeye ekleyin.
+4.  Uygulamayı başlatın: `npx react-native run-android` veya `npx react-native run-ios`
+
+---
 
 
-![WhatsApp Image 2025-11-02 at 13 04 29](https://github.com/user-attachments/assets/4a5131bf-c788-4b34-886a-6779e3da2360)
+
+
+
+
+
 
 
 
